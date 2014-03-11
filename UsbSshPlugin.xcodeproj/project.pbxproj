@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22A264418CEAD3B003308A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22A264318CEAD3B003308A0 /* AppKit.framework */; };
+		B22A264618CEAD3B003308A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22A264518CEAD3B003308A0 /* Foundation.framework */; };
+		B22A264C18CEAD3B003308A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B22A264A18CEAD3B003308A0 /* InfoPlist.strings */; };
+		B22A264F18CEAD3B003308A0 /* UsbSshPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A264E18CEAD3B003308A0 /* UsbSshPlugin.m */; };
+		B25C785218CEAD82001AFC70 /* usbmuxd-1.0.8 in Resources */ = {isa = PBXBuildFile; fileRef = B25C785118CEAD82001AFC70 /* usbmuxd-1.0.8 */; };
+		B25C785818CEADEC001AFC70 /* PortTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B25C785518CEADEC001AFC70 /* PortTextFieldFormatter.m */; };
+		B25C785C18CEAE02001AFC70 /* UsbSshMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B25C785B18CEAE02001AFC70 /* UsbSshMenuItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B22A264018CEAD3B003308A0 /* UsbSshPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbSshPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22A264318CEAD3B003308A0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B22A264518CEAD3B003308A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B22A264918CEAD3B003308A0 /* UsbSshPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsbSshPlugin-Info.plist"; sourceTree = "<group>"; };
+		B22A264B18CEAD3B003308A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B22A264D18CEAD3B003308A0 /* UsbSshPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsbSshPlugin.h; sourceTree = "<group>"; };
+		B22A264E18CEAD3B003308A0 /* UsbSshPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsbSshPlugin.m; sourceTree = "<group>"; };
+		B22A265018CEAD3B003308A0 /* UsbSshPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsbSshPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		B25C785118CEAD82001AFC70 /* usbmuxd-1.0.8 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "usbmuxd-1.0.8"; sourceTree = "<group>"; };
+		B25C785318CEADEC001AFC70 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		B25C785418CEADEC001AFC70 /* PortTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortTextFieldFormatter.h; sourceTree = "<group>"; };
+		B25C785518CEADEC001AFC70 /* PortTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortTextFieldFormatter.m; sourceTree = "<group>"; };
+		B25C785A18CEAE02001AFC70 /* UsbSshMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsbSshMenuItem.h; sourceTree = "<group>"; };
+		B25C785B18CEAE02001AFC70 /* UsbSshMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsbSshMenuItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B22A263D18CEAD3B003308A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A264418CEAD3B003308A0 /* AppKit.framework in Frameworks */,
+				B22A264618CEAD3B003308A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B22A263718CEAD3B003308A0 = {
+			isa = PBXGroup;
+			children = (
+				B25C785118CEAD82001AFC70 /* usbmuxd-1.0.8 */,
+				B22A264718CEAD3B003308A0 /* UsbSshPlugin */,
+				B22A264218CEAD3B003308A0 /* Frameworks */,
+				B22A264118CEAD3B003308A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22A264118CEAD3B003308A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22A264018CEAD3B003308A0 /* UsbSshPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22A264218CEAD3B003308A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22A264318CEAD3B003308A0 /* AppKit.framework */,
+				B22A264518CEAD3B003308A0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22A264718CEAD3B003308A0 /* UsbSshPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				B25C785318CEADEC001AFC70 /* Const.h */,
+				B25C785418CEADEC001AFC70 /* PortTextFieldFormatter.h */,
+				B25C785518CEADEC001AFC70 /* PortTextFieldFormatter.m */,
+				B25C785A18CEAE02001AFC70 /* UsbSshMenuItem.h */,
+				B25C785B18CEAE02001AFC70 /* UsbSshMenuItem.m */,
+				B22A264D18CEAD3B003308A0 /* UsbSshPlugin.h */,
+				B22A264E18CEAD3B003308A0 /* UsbSshPlugin.m */,
+				B22A264818CEAD3B003308A0 /* Supporting Files */,
+			);
+			path = UsbSshPlugin;
+			sourceTree = "<group>";
+		};
+		B22A264818CEAD3B003308A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22A264918CEAD3B003308A0 /* UsbSshPlugin-Info.plist */,
+				B22A264A18CEAD3B003308A0 /* InfoPlist.strings */,
+				B22A265018CEAD3B003308A0 /* UsbSshPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B22A263F18CEAD3B003308A0 /* UsbSshPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22A265318CEAD3B003308A0 /* Build configuration list for PBXNativeTarget "UsbSshPlugin" */;
+			buildPhases = (
+				B22A263C18CEAD3B003308A0 /* Sources */,
+				B22A263D18CEAD3B003308A0 /* Frameworks */,
+				B22A263E18CEAD3B003308A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsbSshPlugin;
+			productName = UsbSshPlugin;
+			productReference = B22A264018CEAD3B003308A0 /* UsbSshPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22A263818CEAD3B003308A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Baidu;
+			};
+			buildConfigurationList = B22A263B18CEAD3B003308A0 /* Build configuration list for PBXProject "UsbSshPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B22A263718CEAD3B003308A0;
+			productRefGroup = B22A264118CEAD3B003308A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22A263F18CEAD3B003308A0 /* UsbSshPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22A263E18CEAD3B003308A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A264C18CEAD3B003308A0 /* InfoPlist.strings in Resources */,
+				B25C785218CEAD82001AFC70 /* usbmuxd-1.0.8 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22A263C18CEAD3B003308A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A264F18CEAD3B003308A0 /* UsbSshPlugin.m in Sources */,
+				B25C785C18CEAE02001AFC70 /* UsbSshMenuItem.m in Sources */,
+				B25C785818CEADEC001AFC70 /* PortTextFieldFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B22A264A18CEAD3B003308A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22A264B18CEAD3B003308A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B22A265118CEAD3B003308A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B22A265218CEAD3B003308A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B22A265418CEAD3B003308A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsbSshPlugin/UsbSshPlugin-Prefix.pch";
+				INFOPLIST_FILE = "UsbSshPlugin/UsbSshPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		B22A265518CEAD3B003308A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsbSshPlugin/UsbSshPlugin-Prefix.pch";
+				INFOPLIST_FILE = "UsbSshPlugin/UsbSshPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B22A263B18CEAD3B003308A0 /* Build configuration list for PBXProject "UsbSshPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22A265118CEAD3B003308A0 /* Debug */,
+				B22A265218CEAD3B003308A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22A265318CEAD3B003308A0 /* Build configuration list for PBXNativeTarget "UsbSshPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22A265418CEAD3B003308A0 /* Debug */,
+				B22A265518CEAD3B003308A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B22A263818CEAD3B003308A0 /* Project object */;
+}
