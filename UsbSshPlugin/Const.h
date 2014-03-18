@@ -10,7 +10,9 @@
 #define UsbSshPlugin_Const_h
 
 #define DEFAULT_PORT    2222
-#define MENU_LABEL_TITLE      @"USB SSH On Port:"
-#define MENU_BUTTON_START      @"Start"
+#define MENU_MAIN_TITLE                     @"USB SSH"
+#define MENU_MAIN_START_LABEL_TITLE         @"Port:"
+#define MENU_MAIN_START_BUTTON_TITLE        @"Start"
+#define MENU_MAIN_STOP_TITLE                @"Stop"
 
 #endif
